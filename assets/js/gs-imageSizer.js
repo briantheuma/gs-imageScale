@@ -3,9 +3,6 @@ function imageSizer(element) {
     var bgImg = $("." + element + " img");
     var vPort = $("." + element);
 
-//var bgImg = $('.ib-icon img');
-//var vPort = $('.ib-icon');
-
     if (bgImg.width() > bgImg.height()) {
         bgImg.width(vPort.outerWidth()).css('height', 'auto');
         bgImg.css('left', 0);
